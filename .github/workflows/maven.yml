@@ -47,5 +47,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/yashvardhankatiyar/learningspringboot:latest
+        tags: ghcr.io/yashvardhankatiyar/learningspringboot:${{ github.run_number }}
 
